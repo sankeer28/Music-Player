@@ -45,7 +45,7 @@ def search_song(query):
 class SpotifyCloneApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Spotify Clone")
+        self.root.title("Music Player 🎵")
         self.root.geometry("800x800")
 
         self.apply_tokyo_night_theme()
